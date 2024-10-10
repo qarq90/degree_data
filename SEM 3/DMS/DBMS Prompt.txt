@@ -1,0 +1,4 @@
+Provide proper writeups for and experiment whose aim is :
+	- To study triggers in mysql
+	
+Also give and explain sytax for commands
