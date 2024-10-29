@@ -108,7 +108,7 @@ public class MainScreen extends JFrame {
 
     private void cmdviewActionPerformed(ActionEvent evt) {
         try {
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/dbms", "root", "");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/yamin", "root", "");
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("select * from bank where custid=" + txtcuid.getText());
 
@@ -135,7 +135,9 @@ public class MainScreen extends JFrame {
 
     private void cmdviewallActionPerformed(ActionEvent evt) {
         try {
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/dbms", "root", "");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/yamin",
+                    "root",
+                    "");
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("select * from bank");
 
@@ -168,7 +170,8 @@ public class MainScreen extends JFrame {
 
     private void addCustomerActionPerformed(ActionEvent evt) {
         try {
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/dbms", "root", "");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/yamin",
+                    "root", "");
             PreparedStatement ps = con.prepareStatement("INSERT INTO bank (name, address, date, type, amount, balance) VALUES (?, ?, ?, ?, ?, ?)");
 
             if (txtname.getText().isEmpty() || jTextArea1.getText().isEmpty() || txtdate.getText().isEmpty() ||

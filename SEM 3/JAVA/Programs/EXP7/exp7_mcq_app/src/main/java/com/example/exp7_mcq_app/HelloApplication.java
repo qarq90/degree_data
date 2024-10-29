@@ -7,9 +7,7 @@ import java.awt.event.ActionListener;
 import java.sql.*;
 
 public class HelloApplication extends JFrame {
-    private static final String DB_URL = "jdbc:mysql://localhost:3307/dbms";
-    private static final String DB_USERNAME = "root";
-    private static final String DB_PASSWORD = "";
+
     private final JLabel questionLabel;
     private final JRadioButton option1;
     private final JRadioButton option2;
@@ -18,7 +16,6 @@ public class HelloApplication extends JFrame {
     private final ButtonGroup optionsGroup;
     private int currentQuestion = 0;
     private ResultSet resultSet;
-    private Connection connection;
     private int score = 0;
     private int correctAnswer;
 
@@ -62,8 +59,8 @@ public class HelloApplication extends JFrame {
     private void loadQuestion() {
         try {
             if (resultSet == null) {
-                connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
-                Statement statement = connection.createStatement();
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/dbms", "root", "");
+                Statement statement = con.createStatement();
                 resultSet = statement.executeQuery("SELECT * FROM mcq");
             }
 
@@ -115,14 +112,6 @@ public class HelloApplication extends JFrame {
 
     private void showResult() {
         JOptionPane.showMessageDialog(this, "Test completed! Your score: " + score);
-        try {
-            if (connection != null) {
-                connection.close();
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        System.exit(0);
     }
 
     public static void main(String[] args) {
