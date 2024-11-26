@@ -32,3 +32,6 @@ main = do
     
     putStrLn "Get the tail of the list:"
     print (tail [1, 2, 3, 4, 5])
+    print (last [1, 2, 3, 4, 5])
+    print (init [1, 2, 3, 4, 5])
+
