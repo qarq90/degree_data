@@ -2,4 +2,5 @@
 
 #directories
 /.idea/
-/.vscode/
+.vscode/
+
