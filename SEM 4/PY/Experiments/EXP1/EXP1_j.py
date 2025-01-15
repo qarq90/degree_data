@@ -6,9 +6,6 @@ def my_function(x):
             print("*", end="")
         for m in range(i):
             print("*", end="")
-        for l in range(x,i+1,-1):
-            print(" ", end="")
-        
         print("")
             
         
