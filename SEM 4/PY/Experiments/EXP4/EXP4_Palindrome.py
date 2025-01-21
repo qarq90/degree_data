@@ -1,6 +1,5 @@
 def isPalindrome(string_x):
-    for i in range(0, len(string_x)):
-        if string_x[i] != string_x[len(string_x) - i - 1]:
+        if string_x.lower() != string_x[::-1].lower():
             return False
         return True
     
