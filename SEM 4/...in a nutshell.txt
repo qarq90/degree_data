@@ -1,6 +1,6 @@
 PY - never ending programs 
-CNND - DCC on STEROIDS
+CNND - (Network + Diagrams) on STEROIDS
 M4 - Ah shit, here we go again...
 OSY / UNIX - DBMS Round 2: Brainrot Faculty
-COA / MIP - MIC & DTE & CPH had a child
+COA / MIP - if MIC & DTE & CPH had a child
 AT - 1 question, 1 billion solutions

@@ -1,0 +1,11 @@
+V -t * -v 1.0a5 -a 0
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+n -t * -a 0 -s 0 -S UP -v circle -c blue -i blue
+n -t * -a 1 -s 1 -S UP -v circle -c red -i red
+n -t * -a 2 -s 2 -S UP -v circle -c green -i green
+l -t * -s 0 -d 1 -S UP -r 2000000 -D 0.10000000000000001 -c black
+l -t * -s 1 -d 2 -S UP -r 200000 -D 0.10000000000000001 -c black
+n -t 0 -s 0 -S DLABEL -l "Client1" -L ""
+n -t 0 -s 1 -S DLABEL -l "Server" -L ""
+n -t 0 -s 2 -S DLABEL -l "Client2" -L ""
