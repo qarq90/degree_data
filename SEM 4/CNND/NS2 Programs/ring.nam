@@ -1,0 +1,21 @@
+V -t * -v 1.0a5 -a 0
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+n -t * -a 4 -s 4 -S UP -v circle -c white -i white
+n -t * -a 0 -s 0 -S UP -v circle -c blue -i blue
+n -t * -a 5 -s 5 -S UP -v circle -c green -i green
+n -t * -a 1 -s 1 -S UP -v circle -c red -i red
+n -t * -a 2 -s 2 -S UP -v circle -c green -i green
+n -t * -a 3 -s 3 -S UP -v circle -c yellow -i yellow
+l -t * -s 0 -d 1 -S UP -r 3000000 -D 0.0030000000000000001 -c black
+l -t * -s 1 -d 2 -S UP -r 3000000 -D 0.0030000000000000001 -c black
+l -t * -s 2 -d 3 -S UP -r 3000000 -D 0.0030000000000000001 -c black
+l -t * -s 3 -d 4 -S UP -r 3000000 -D 0.0030000000000000001 -c black
+l -t * -s 4 -d 5 -S UP -r 3000000 -D 0.0030000000000000001 -c black
+l -t * -s 5 -d 0 -S UP -r 3000000 -D 0.0030000000000000001 -c black
+n -t 0 -s 0 -S DLABEL -l "Node1" -L ""
+n -t 0 -s 1 -S DLABEL -l "Node2" -L ""
+n -t 0 -s 2 -S DLABEL -l "Node3" -L ""
+n -t 0 -s 3 -S DLABEL -l "Node4" -L ""
+n -t 0 -s 4 -S DLABEL -l "Node5" -L ""
+n -t 0 -s 5 -S DLABEL -l "Node6" -L ""
