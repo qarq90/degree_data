@@ -1,0 +1,7 @@
+old_image = open("Lady Dimitrescu.png", "rb")
+pixels = old_image.read()
+print(pixels)
+old_image.close()
+new_image = open("Lady D.png", "wb")
+new_image.write(pixels)
+new_image.close()

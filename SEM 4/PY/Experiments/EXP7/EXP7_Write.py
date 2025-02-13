@@ -1,0 +1,7 @@
+file = open("this_file_is_for_write.txt", 'w')
+file.write("Ab ki baar modi sarkaar")
+file.close()
+file = open("this_file_is_for_write.txt", 'r')
+content = file.read()
+print(content)
+file.close()
