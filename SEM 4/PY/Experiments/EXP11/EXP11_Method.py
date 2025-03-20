@@ -1,27 +1,42 @@
 class RDR2Character:
-    def __init__(self, first_name, last_name, gang, role, signature_weapon):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.gang = gang
-        self.role = role
-        self.signature_weapon = signature_weapon
 
-    def show_char(self):
-        print(f"Name: {self.first_name} {self.last_name}")
-        print(f"Gang: {self.gang}")
-        print(f"Role: {self.role}")
-        print(f"Signature Weapon: {self.signature_weapon}")
+    game = "Red Dead Redemption II"
+    
+    characters = {
+        "Arthur Morgan": {
+            "gang": "Van der Linde Gang",
+            "role": "Enforcer",
+            "signature_weapon": "Cattleman Revolver"
+        },
+        "Dutch van der Linde": {
+            "gang": "Van der Linde Gang",
+            "role": "Leader",
+            "signature_weapon": "Double-Action Revolver"
+        },
+        "John Marston": {
+            "gang": "Van der Linde Gang",
+            "role": "Gunslinger",
+            "signature_weapon": "Schofield Revolver"
+        },
+        "Sadie Adler": {
+            "gang": "Van der Linde Gang",
+            "role": "Bounty Hunter",
+            "signature_weapon": "Lancaster Repeater"
+        }
+    }
+    
+    @classmethod
+    def print_characters(cls):
+        for character, details in cls.characters.items():
+            print(f"{character}:")
+            print(f"   Gang: {details["gang"]}")
+            print(f"   Role: {details["role"]}")
+            print(f"   Signature Weapon: {details["signature_weapon"]}")
+            print()
 
-
-arthur = RDR2Character("Arthur", "Morgan", "Van der Linde Gang", "Enforcer", "Cattleman Revolver")
-dutch = RDR2Character("Dutch", "van der Linde", "Van der Linde Gang", "Leader", "Double-Action Revolver")
-john = RDR2Character("John", "Marston", "Van der Linde Gang", "Gunslinger", "Schofield Revolver")
-sadie = RDR2Character("Sadie", "Adler", "Van der Linde Gang", "Bounty Hunter", "Lancaster Repeater")
-
-arthur.show_char()
 print()
-dutch.show_char()
+print("------------------------------------------------------------")
+print("\t\tGame:" , RDR2Character.game)
+print("------------------------------------------------------------")
 print()
-john.show_char()
-print()
-sadie.show_char()
+RDR2Character.print_characters()
