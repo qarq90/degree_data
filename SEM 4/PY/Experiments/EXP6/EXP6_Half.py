@@ -1,5 +1,4 @@
 numbers = tuple(range(1, 21)) 
-half = len(numbers) // 2
 
-print("First Half:", numbers[:half])
-print("Second Half:", numbers[half:])
+print("First Half:", numbers[1:10])
+print("Second Half:", numbers[11:21])

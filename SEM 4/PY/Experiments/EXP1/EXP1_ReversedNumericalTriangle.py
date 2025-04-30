@@ -5,5 +5,4 @@ def my_function(x):
         print("")
             
         
-n = int(input("Enter a number:"))
-my_function(n)
+my_function(10)

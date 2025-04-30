@@ -1,4 +1,4 @@
 numbers = tuple(range(1, 101))  
-even_numbers = tuple(num for num in numbers if num % 2 == 0)  
+even_numbers = tuple(x for x in range(0,101,2))  
 
 print("Even Numbers Tuple:", even_numbers)
