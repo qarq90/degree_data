@@ -1,0 +1,133 @@
+## **Module 1: Fundamentals of Operating System**
+**Topics Covered:**  
+- Introduction to Operating Systems  
+- Operating System Structure and Operations  
+- Functions of Operating Systems  
+- System Calls and its Types  
+- System Boot  
+
+### **Questions:**
+
+#### 📜 OS Dec 2023.pdf
+- **Q.4.b.** What is an Operating System? Explain structure of Operating System.  
+- **Q.6.f.** File Allocation Methods (short note).  
+
+#### 📜 OS Dec 2024.pdf
+- **Q.2.a.** What is an Operating System? Explain structure of Operating System.  
+- **Q.1.a.** Explain process state model.  
+
+#### 📜 OS May 2024.pdf
+- **Q.1.a.** What are the various objectives and functions of Operating Systems?  
+
+---
+
+## **Module 2: Process Management**
+**Topics Covered:**  
+- Process State Model and Transition  
+- Process Control Block (PCB)  
+- Thread Models  
+- Scheduling Algorithms  
+
+### **Questions:**
+
+#### 📜 OS Dec 2023.pdf
+- **Q.1.d.** Explain process state model.  
+- **Q.2.b.** What is a process? Explain Process control block in detail.  
+- **Q.3.a.** Explain process scheduling algorithms with example.  
+
+#### 📜 OS Dec 2024.pdf
+- **Q.1.a.** Explain process state model.  
+- **Q.2.b.** Compare user level and kernel level threads.  
+- **Q.3.a.** Explain process scheduling algorithms with example.  
+
+#### 📜 OS May 2024.pdf
+- **Q.1.b.** Differentiate between process and threads.  
+- **Q.4.b.** Compare multithreading models.  
+
+---
+
+## **Module 3: Process Coordination**
+**Topics Covered:**  
+- Race Condition  
+- Critical Region and Deadlock  
+- Semaphores and Synchronization  
+
+### **Questions:**
+
+#### 📜 OS Dec 2023.pdf
+- **Q.3.b.** Explain necessary conditions for deadlock.  
+- **Q.6.c.** Semaphores (short note).  
+
+#### 📜 OS Dec 2024.pdf
+- **Q.2.a.** Explain necessary conditions for deadlock.  
+- **Q.3.b.** Explain deadlock conditions.  
+
+#### 📜 OS May 2024.pdf
+- **Q.1.c.** Explain Race condition with example.  
+- **Q.5.b.** Solve Dining Philosophers problem using semaphores.  
+
+---
+
+## **Module 4: Memory Management**
+**Topics Covered:**  
+- Paging and Segmentation  
+- Virtual Memory and Page Replacement  
+- Thrashing  
+
+### **Questions:**
+
+#### 📜 OS Dec 2023.pdf
+- **Q.5.b.** Explain page replacement algorithms.  
+- **Q.6.d.** Virtual Memory (short note).  
+
+#### 📜 OS Dec 2024.pdf
+- **Q.5.b.** Explain page replacement algorithms.  
+- **Q.1.c.** Difference between physical and virtual address.  
+
+#### 📜 OS May 2024.pdf
+- **Q.1.d.** Explain Demand Paging.  
+- **Q.5.a.** Explain logical to physical address conversion.  
+
+---
+
+## **Module 5: Storage Management**
+**Topics Covered:**  
+- File Allocation Methods  
+- Disk Scheduling  
+- RAID Levels  
+
+### **Questions:**
+
+#### 📜 OS Dec 2023.pdf
+- **Q.1.c.** Describe file allocation techniques.  
+- **Q.2.a.** Explain RAID levels.  
+
+#### 📜 OS Dec 2024.pdf
+- **Q.4.b.** Explain RAID levels.  
+- **Q.6.f.** Memory Allocation (short note).  
+
+#### 📜 OS May 2024.pdf
+- **Q.3.a.** Explain RAID Levels.  
+- **Q.4.a.** Explain file allocation methods with diagrams.  
+
+---
+
+## **Module 6: Special-purpose Operating Systems**
+**Topics Covered:**  
+- Real-Time OS  
+- Mobile OS  
+- Cloud and Network OS  
+
+### **Questions:**
+
+#### 📜 OS Dec 2023.pdf
+- **Q.5.a.** Explain Network OS.  
+- **Q.6.b.** Real Time OS (short note).  
+
+#### 📜 OS Dec 2024.pdf
+- **Q.6.d.** Network OS (short note).  
+- **Q.6.f.** Cache Memory (short note).  
+
+#### 📜 OS May 2024.pdf
+- **Q.1.e.** Features of Mobile and Real-Time OS.  
+- **Q.6.b.** Design issues of Mobile and Real-Time OS.  

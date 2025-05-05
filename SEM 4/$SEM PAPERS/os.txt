@@ -1,3 +1,104 @@
+Read every question paper.
+Read every question.
+
+---------------------------------------------------------------------------------------------------------------------
+
+SYLLABUS:
+
+	Module number 1 (Fundamentals of Operating System):
+		Content:
+			Introduction to Operating Systems; 
+			Operating System Structure and Operations; 
+			Functions of Operating Systems; 
+			Operating System Services and Interface; 
+			System Calls and its Types; 
+			System Programs; 
+			Operating System Structure; 
+			System Boot.		
+					
+	Module number 2 (Process Management):
+		Content:
+			Basic Concepts of Process;
+			Operation on Process; 
+				Process State Model and Transition;
+				Process Control Block; 
+				Context Switching;
+			Introduction to Threads; 
+			Types of Threads, Thread Models; 
+			Basic Concepts of Scheduling; 
+				Types of Schedulers; 
+				Scheduling Criteria; 
+				Scheduling Algorithms.
+			
+	Module number 3 (Process Coordination):
+		Content:
+			Basic Concepts of Inter-process Communication and Synchronization; 
+			Race Condition; 
+			Critical Region and Problem;
+			Peterson’s Solution; 
+			Synchronization Hardware and Semaphores; 
+			Classic Problems of Synchronization; 
+			Message Passing; 
+			Introduction to Deadlocks; 
+				System Model, Deadlock Characterization; 
+				Deadlock Detection and Recovery; 
+				Deadlock Prevention; Deadlock Avoidance.
+			
+	Module number 4 (Memory Management):
+		Content:
+			Basic Concepts of Memory Management;
+			Swapping; Contiguous Memory Allocation;
+			Paging; Structure of Page Table;
+			Segmentation; Basic Concepts of Virtual
+			Memory; Demand Paging, Copy-on Write;
+			Page Replacement Algorithms; Thrashing.
+				
+	Module number 5 (Storage Management):
+		Content:
+			Basic Concepts of File System; 
+			File Access Methods; 
+			Directory Structure; 
+			File-System Implementation;
+			Allocation Methods; 
+			Free Space Management; 
+			Overview of Mass-Storage Structure; 
+			Disk Structure; 
+			Disk Scheduling; 
+			RAID Structure; 
+			Introduction to I/O Systems.
+					
+	Module number 6 (Special-purpose Operating Systems):
+		Content:
+			Open-source and Proprietary Operating System; 
+			Fundamentals of Distributed Operating System; 
+			Network Operating System; 
+			Embedded Operating Systems; 
+			Cloud and IoT Operating Systems; 
+			Real-Time Operating System;
+			Mobile Operating System;
+			Multimedia Operating System;
+			Comparison between Functions of various Special-purpose Operating Systems.
+						
+---------------------------------------------------------------------------------------------------------------------
+
+Create a .md file that is in the following structure:
+
+## **Module (module_number): (module_name)**
+**Topics Covered:**  
+- (module_topic_1)  
+- (module_topic_2)  
+.............
+- (module_topic_n)  
+
+### **Questions:**
+
+#### 📜 OS (paper_month) (paper_year).pdf
+- **Q.(question_number).(sub_question_number).** (question).  
+
+---------------------------------------------------------------------------------------------------------------------
+
+Also create a .html file in the following structure:
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -667,3 +768,4 @@
         </div>
     </body>
 </html>
+

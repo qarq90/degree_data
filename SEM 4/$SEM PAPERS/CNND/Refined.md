@@ -1,220 +1,283 @@
-# 📚 **Computer Network & Network Design Exam Questions**  
+Module 1: Introduction to Computer Networks
 
-*Aligned with Syllabus Modules*  
+Topics Covered:
 
----
+    Uses of Computer Networks
 
-## **📦 Module 1: Reference Models & Network Devices**  
+    Network Hardware
 
-**🔍 Topics Covered:**  
+    Network Software
 
-- OSI Reference Model  
-- TCP/IP Reference Model  
-- Comparison of OSI & TCP/IP  
-- Network Devices (Repeater, Hub, Bridge, Switch, Gateway)  
+    Protocol Layering
 
-### **📝 Questions:**
+    Reference Models: OSI, TCP/IP
 
-#### 📜 **CNND Dec 2023.pdf**  
+    Comparison of OSI & TCP/IP
 
-- **Q.1.b.** List the internetworking devices and explain any one.  
-- **Q.2.a.** Draw and explain the OSI model briefly.  
-- **Q.5.a.** Compare TCP/IP and OSI.  
+    Network Devices
 
-#### 📜 **CNND May 2023.pdf**  
+Questions:
+📜 CNND Dec 2022.pdf
 
-- **Q.1.c.** Explain Repeater, Hub, Bridge, Switch, and Gateway.  
-- **Q.2.a.** Draw and Explain OSI reference model with functions of each layer.  
+    Q.1.a. Explain TCP/IP Reference Model.
 
-#### 📜 **CNND May 2024.pdf**  
+    Q.2.a. Explain ISO-OSI reference Model.
 
-- **Q.1.a.** Explain Repeater, Hub, Bridge, Switch, and Gateway.  
-- **Q.2.a.** Draw and Explain OSI reference model with neat diagram.  
+    Q.5.a. Compare TCP/IP and OSI.
 
-#### 📜 **CNND Dec 2022.pdf**  
+📜 CNND Dec 2023.pdf
 
-- **Q.1.a.** Explain TCP/IP Reference Model.  
-- **Q.2.a.** Explain ISO-OSI reference Model.  
+    Q.1.a. Compare Bus and Star topology.
 
----
+    Q.1.b. List the internetworking devices and explain any one.
 
-## **📦 Module 2: Physical Layer & Data Link Layer**  
+    Q.2.a. Draw and explain the OSI model briefly.
 
-**🔍 Topics Covered:**  
+    Q.5.a. Compare TCP/IP and OSI.
 
-- Guided/Unguided Transmission Media (Twisted Pair, Coaxial, Fiber Optics)  
-- Error Detection/Correction (CRC, Parity)  
-- Sliding Window Protocol (Go-Back-N, Selective Repeat)  
-- CSMA Protocols (CSMA/CD, CSMA/CA)  
-- Ethernet Protocols  
+📜 CNND Dec 2024.pdf
 
-### **📝 Questions:**
+    Q.2.b. Explain the OSI model of Computer Network with a neat diagram.
 
-#### 📜 **CNND Dec 2023.pdf**  
+📜 CNND May 2023.pdf
 
-- **Q.1.a.** Compare Bus and Star topology.  
-- **Q.3.b.** Draw and explain Fiber Optic Media and compare it with Twisted Pair.  
-- **Q.6.d.** Image Compression Techniques *(Overlaps with Module 5)*.  
+    Q.1.a. Compare Twisted pair cable, Coaxial cable, and Fiber optics cable.
 
-#### 📜 **CNND May 2023.pdf**  
+    Q.1.c. Explain Repeater, Hub, Bridge, Switch, and Gateway.
 
-- **Q.1.a.** Compare Twisted pair cable, Coaxial cable, and Fiber optics cable.  
-- **Q.3.a.** Explain CSMA protocols. Explain how collisions are handled in CSMA/CA.  
-- **Q.3.b.** CRC calculation for a bit stream.  
-- **Q.4.b.** Explain Go-Back-N protocol.  
+    Q.2.a. Draw and Explain OSI reference model with functions of each layer.
 
-#### 📜 **CNND May 2024.pdf**  
+📜 CNND May 2024.pdf
 
-- **Q.3.a.** Explain CSMA protocols. Explain collisions in CSMA/CD.  
-- **Q.3.b.** CRC calculation for a bit stream.  
-- **Q.4.a.** Explain Twisted pair, Coaxial Cable, Fiber Optic.  
-- **Q.4.b.** Explain sliding window protocol. Compare Go-Back-N and Selective Repeat.  
+    Q.1.a. Explain Repeater, Hub, Bridge, Switch, and Gateway.
 
-#### 📜 **CNND Dec 2022.pdf**  
+    Q.2.a. Draw and Explain OSI reference model with neat diagram.
 
-- **Q.1.b.** Explain Sliding Window Protocol.  
-- **Q.4.b.** Explain Fast Ethernet and Gigabit Ethernet.  
+Module 2: Physical and Data Link Layer
 
----
+Topics Covered:
 
-## **📦 Module 3: Network Layer**  
+    Physical Layer: Guided and Unguided Media
 
-**🔍 Topics Covered:**  
+    Wireless Transmission
 
-- IPv4 Addressing (Classful/Classless)  
-- Subnetting/Supernetting  
-- NAT (Network Address Translation)  
-- Routing Algorithms (Distance Vector, OSPF, BGP)  
-- IPv6  
+    Switching: Circuit-Switched Networks, Packet Switching
 
-### **📝 Questions:**
+    DLL Design Issues
 
-#### 📜 **CNND Dec 2023.pdf**  
+    Error Detection and Correction
 
-- **Q.4.b.** Draw the IPv4 Header and explain the header format.  
-- **Q.5.b.** Explain distance vector routing with an example.  
+    Elementary Data Link Protocols: Stop and Wait, Sliding Window
 
-#### 📜 **CNND May 2023.pdf**  
+    Medium Access Protocols: Random Access, Controlled Access, Channelization
 
-- **Q.1.e.** Class B IP addressing details and subnet mask.  
-- **Q.2.b.** Static vs. dynamic routing. Explain distance vector routing.  
-- **Q.5.b.** Explain Classful and Classless IP addresses.  
+    Ethernet Protocol
 
-#### 📜 **CNND May 2024.pdf**  
+Questions:
+📜 CNND Dec 2022.pdf
 
-- **Q.1.c.** Explain Network Address Translation.  
-- **Q.2.b.** Explain IPv4 header format with diagram.  
-- **Q.5.a.** Explain Classful and Classless IP addresses.  
-- **Q.6.e.** OSPF *(short note)*.  
+    Q.1.b. Explain Sliding Window Protocol.
 
-#### 📜 **CNND Dec 2022.pdf**  
+    Q.4.b. Explain Fast Ethernet and Gigabit Ethernet.
 
-- **Q.1.c.** Explain different classes of IPv4 Addresses.  
-- **Q.4.a.** Explain IPv6 Header with a diagram.  
-- **Q.2.b.** Explain Network Address Translation.  
+📜 CNND Dec 2023.pdf
 
----
+    Q.1.c. Explain RLE with an example.
 
-## **📦 Module 4: Transport Layer**  
+    Q.3.a. Explain the Sliding Window Protocol with suitable diagrams.
 
-**🔍 Topics Covered:**  
+    Q.3.b. Draw and explain the Fiber Optic Media and compare it with Twisted Pair.
 
-- UDP & TCP Protocols  
-- TCP Congestion Control  
-- Flow/Error Control  
-- RPC (Remote Procedure Call)  
+    Q.4.a. What is controlled media access? Explain the controlled media access techniques.
 
-### **📝 Questions:**
+📜 CNND Dec 2024.pdf
 
-#### 📜 **CNND Dec 2023.pdf**  
+    Q.1.b. Compare Circuit-Switched Networks and Packet Switching Network.
 
-- **Q.1.d.** Draw the UDP Header with its fields.  
-- **Q.5.b.** Explain TCP congestion control mechanism *(Overlaps with Module 5)*.  
+    Q.4.a. Draw and explain guided and unguided transmission media.
 
-#### 📜 **CNND May 2023.pdf**  
+    Q.5.b. Explain in detail CSMA protocols.
 
-- **Q.5.a.** Explain TCP congestion control mechanism.  
-- **Q.6.a.** RPC *(short note)*.  
+📜 CNND May 2023.pdf
 
-#### 📜 **CNND May 2024.pdf**  
+    Q.3.a. Explain CSMA protocols. Explain how collisions are handled in CSMA/CA.
 
-- **Q.5.b.** Explain TCP congestion control mechanism.  
-- **Q.6.a.** RPC *(short note)*.  
+    Q.4.b. Explain Go-Back-N protocol.
 
-#### 📜 **CNND Dec 2022.pdf**  
+📜 CNND May 2024.pdf
 
-- **Q.3.a.** Explain TCP header with a diagram.  
-- **Q.3.b.** Different UDP Applications.  
+    Q.1.b. Explain Token passing controlled access protocol.
 
----
+    Q.3.a. Explain CSMA protocols. Explain how collisions are handled in CSMA/CD.
 
-## **📦 Module 5: Presentation Layer & Compression**  
+    Q.4.b. Explain concept of sliding protocol? Compare the performance of Go-back-N and Selective Repeat protocol.
 
-**🔍 Topics Covered:**  
+Module 3: Network Layer
 
-- Lossy vs. Lossless Compression  
-- RLE (Run-Length Encoding)  
-- Image Compression (GIF, JPEG)  
+Topics Covered:
 
-### **📝 Questions:**
+    Network Layer Services
 
-#### 📜 **CNND Dec 2023.pdf**  
+    Packet Switching
 
-- **Q.1.c.** Explain RLE with an example.  
-- **Q.6.d.** Image Compression Techniques.  
+    IPv4 Addressing (Classful and Classless)
 
-#### 📜 **CNND May 2023.pdf**  
+    Subnetting, Supernetting
 
-- **Q.1.d.** Compare lossy with lossless data compression.  
-- **Q.6.d.** VLAN *(Overlaps with Module 6)*.  
+    IPv4 Protocol, DHCP, NAT
 
-#### 📜 **CNND May 2024.pdf**  
+    Routing Algorithms: Distance Vector, Link State, Path Vector
 
-- **Q.1.e.** Explain Image compression GIF and JPEG.  
+    Protocols: RIP, OSPF, BGP
 
-#### 📜 **CNND Dec 2022.pdf**  
+    IPv6 Addressing and Protocol
 
-- **Q.5.a.** Compare Lossy Compression and Lossless Compression.  
+Questions:
+📜 CNND Dec 2022.pdf
 
----
+    Q.1.c. Explain different classes of IPv4 Addresses.
 
-## **📦 Module 6: Advanced Networking**  
+    Q.2.b. What is Network Address Translation? Explain.
 
-**🔍 Topics Covered:**  
+    Q.4.a. Explain IPv6 Header with a diagram.
 
-- VLAN, VPN  
-- Network Design Case Study  
-- Application Layer Protocols (SMTP, FTP, HTTP, DNS)  
+📜 CNND Dec 2023.pdf
 
-### **📝 Questions:**
+    Q.4.b. Draw the IPv4 Header and explain the header format.
 
-#### 📜 **CNND Dec 2023.pdf**  
+    Q.5.b. Explain the distance vector routing with an example.
 
-- **Q.6.a.** Leaky bucket.  
-- **Q.6.b.** SMTP.  
-- **Q.6.c.** VLAN.  
+📜 CNND Dec 2024.pdf
 
-#### 📜 **CNND May 2023.pdf**  
+    Q.2.a. Explain in detail Link state routing.
 
-- **Q.6.b.** FTP.  
-- **Q.6.c.** VPN.  
-- **Q.6.e.** HTTP.  
+    Q.3.a. Explain in detail Classful and Classless IP addresses.
 
-#### 📜 **CNND May 2024.pdf**  
+    Q.4.b. An organization is granted the block 18.0.0.0/8. The administrator wants to create 511 fixed-length subnets. a. Find the subnet mask. b. Find the number of addresses in each subnet. c. Find the first and the last address in the first subnet.
 
-- **Q.6.b.** DNS.  
-- **Q.6.c.** VLAN.  
-- **Q.6.d.** SNMP.  
+📜 CNND May 2023.pdf
 
-#### 📜 **CNND Dec 2022.pdf**  
+    Q.1.e. How many networks and hosts are possible using ‘Class B’ IP addressing? What is subnet mask?
 
-- **Q.6.b.** VLAN.  
-- **Q.6.c.** Routing Algorithms.  
-- **Q.5.b.** Explain HTTP Protocol.  
+    Q.2.b. Explain the difference between static and dynamic routing. Explain distance vector routing.
 
----
+    Q.5.b. What is IP addressing? Explain in detail Classful and Classless IP address.
 
-**🎯 Key Notes:**  
+📜 CNND May 2024.pdf
 
-- Overlapping topics are marked for clarity.  
-- Focus on diagrams and examples for protocols and headers.  
+    Q.1.c. Explain in detail Network Address Translation.
+
+    Q.2.b. Explain IPv4 header format with diagram.
+
+    Q.5.a. What is IP addressing? Explain in detail Classful and Classless IP addresses.
+
+Module 4: Transport and Session Layer
+
+Topics Covered:
+
+    Transport Layer Services
+
+    Connectionless & Connection-oriented Protocols
+
+    UDP Services and Applications
+
+    TCP Services, Features, Segment, Connection
+
+    TCP Congestion Control, Timers
+
+    Session Layer: RPC
+
+Questions:
+📜 CNND Dec 2022.pdf
+
+    Q.3.a. Briefly explain TCP header with a diagram.
+
+    Q.3.b. What are different UDP Applications?
+
+📜 CNND Dec 2023.pdf
+
+    Q.1.d. Draw the UDP Header with its fields.
+
+📜 CNND Dec 2024.pdf
+
+    Q.1.a. Explain in detail TCP Timers.
+
+    Q.3.b. Explain in detail TCP header with diagram.
+
+    Q.5.a. Explain in detail Go-Back-N protocol.
+
+📜 CNND May 2023.pdf
+
+    Q.5.a. Explain in detail TCP congestion control mechanism.
+
+📜 CNND May 2024.pdf
+
+    Q.1.d. Compare connection-oriented and connectionless protocols.
+
+    Q.5.b. Explain in detail TCP congestion control mechanism.
+
+Module 5: Presentation Layer
+
+Topics Covered:
+
+    Compression: Lossy vs. Lossless
+
+    Huffman Coding, RLE, LZW
+
+    Image Compression: GIF, JPEG
+
+Questions:
+📜 CNND Dec 2022.pdf
+
+    Q.5.a. Compare Lossy Compression and Lossless Compression.
+
+📜 CNND Dec 2023.pdf
+
+    Q.6.d. Image Compression Techniques.
+
+📜 CNND May 2023.pdf
+
+    Q.1.d. Compare lossy with lossless data compression technique.
+
+📜 CNND May 2024.pdf
+
+    Q.1.e. Explain Image compression GIF and JPEG.
+
+Module 6: Advanced Topics and Case Study
+
+Topics Covered:
+
+    VLAN, VPN
+
+    Network Design Case Study
+
+    Services: TELNET, SSH, FTP, Web Server, DHCP, DNS
+
+Questions:
+📜 CNND Dec 2022.pdf
+
+    Q.6.b. VLAN
+
+    Q.6.c. Routing Algorithms.
+
+📜 CNND Dec 2023.pdf
+
+    Q.6.c. VLAN
+
+📜 CNND Dec 2024.pdf
+
+    Q.6.a. OSPF
+
+    Q.6.c. VLAN
+
+📜 CNND May 2023.pdf
+
+    Q.6.c. VPN
+
+    Q.6.d. VLAN
+
+📜 CNND May 2024.pdf
+
+    Q.6.c. VLAN
+
+    Q.6.e. OSPF

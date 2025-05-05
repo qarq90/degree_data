@@ -1,0 +1,226 @@
+Read every question paper.
+Read every question.
+
+---------------------------------------------------------------------------------------------------------------------
+
+SYLLABUS:
+
+	Module number 1:
+		Content:
+			Number systems: Introduction to Number systems,
+			Binary Number systems, Signed Binary Numbers,
+			Binary, Octal, Decimal and Hexadecimal number and
+			their conversions, 1’s and 2’s complement
+			Combinational Circuits:
+			NOT,AND,OR,NAND,NOR,EX-OR,EX-NOR Gates.
+			Half & Full Adder and subtractor, Reduction of
+			Boolean functions using K-map method (2,3,4
+			Variable), introduction to Multiplexers and
+			Demultiplexers, Encoders & Decoders.
+			Sequential Circuits: Introduction to Flip Flops: SR, JK,
+			D, T, master slave flip flop, Truth Table.
+				
+	Module number 2:
+		Content:
+			Introduction of Computer Organization and
+			Architecture. Basic organization of computer and block
+			level description of the functional units. Evolution of
+			Computers, Von Neumann model. Performance
+			measure of Computer Architecture, Amdahl’s Law
+			Architecture of 8086 Family, Instruction Set,
+			Addressing Modes, Assembler Directives, Mixed-
+			Language Programming, Stack, Procedure, Macro.
+			
+	Module number 3:
+		Content:
+			CPU Architecture, Instruction formats, basic
+			instruction cycle with Interrupt processing. Instruction
+			interpretation and sequencing. Control Unit: Soft wired
+			(Microprogrammed) and hardwired control unit design
+			methods. Microinstruction sequencing and execution.
+			Micro operations, concepts of nano programming.
+			Introduction to parallel processing concepts, Flynn’s
+			classifications, instruction pipelining, pipeline hazards.
+			
+	Module number 4:
+		Content:
+			Booth’s algorithm. Division of integers: Restoring and
+			non-restoring division, signed division, basics of
+			floating-point representation IEEE 754 floating point
+			(Single & double precision) number representation
+				
+	Module number 5:
+		Content:
+			Introduction to Memory and Memory parameters.
+			Classifications of primary and secondary memories.
+			Types of RAM and ROM, Allocation policies, Memory
+			hierarchy and characteristics. Cache memory: Concept,
+			architecture (L1, L2, L3), mapping techniques. Cache
+			Coherency, Interleaved and Associative memory
+			07 CO5
+					
+	Module number 6:
+		Content:
+			Input/output systems, I/O module-need & functions
+			and Types of data transfer techniques: Programmed
+			I/O, Interrupt driven I/O and DMA
+						
+---------------------------------------------------------------------------------------------------------------------
+
+Create a .html file that is in the following structure:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Operating System Exam Questions</title>
+        <style>
+            body {
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #191919;
+                color: #d1d5db;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                line-height: 1.6;
+            }
+
+            h1 {
+                color: #ffffff;
+                text-align: center;
+                margin-bottom: 30px;
+                border-bottom: 2px solid #ccc;
+                padding-bottom: 10px;
+            }
+
+            h2 {
+                color: #ccc;
+                background-color: #333;
+                padding: 10px;
+                border-left: 5px solid #ccc;
+                margin-top: 30px;
+            }
+
+            h3 {
+                color: #ccc;
+                margin-top: 25px;
+            }
+
+            .module {
+                background-color: #333;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+                padding: 20px;
+                margin-bottom: 30px;
+            }
+
+            .topics {
+                background-color: #232323;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 15px 0;
+            }
+
+            .questions {
+                margin-left: 20px;
+            }
+
+            .paper {
+                background-color: #232323;
+                border-left: 4px solid #ccc;
+                padding: 10px 15px;
+                margin: 15px 0;
+            }
+
+            .question {
+                margin: 10px 0;
+                padding-left: 10px;
+                border-left: 3px solid #ccc;
+            }
+
+            .note {
+                background-color: #3a3b45;
+                border-left: 4px solid #facc15;
+                padding: 15px;
+                margin-top: 20px;
+                font-style: italic;
+                color: #fef9c3;
+            }
+
+            ul {
+                padding-left: 20px;
+            }
+
+            li {
+                margin-bottom: 8px;
+            }
+
+            .emoji {
+                font-size: 1.2em;
+                margin-right: 5px;
+            }
+
+            a {
+                color: #63e6be;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>💻 Operating System Exam Questions</h1>
+        <p><em>Aligned with Syllabus Modules</em></p>
+
+        <div class="module">
+            <h2>🧱 Module 1: Fundamentals of Operating System</h2>
+            <div class="topics">
+                <h3>📘 Topics Covered:</h3>
+                <ul>
+                    <li>Introduction to Operating Systems</li>
+                    <li>Operating System Structure and Operations</li>
+                    <li>Functions of Operating Systems</li>
+                    <li>System Calls and its Types</li>
+                    <li>System Boot</li>
+                </ul>
+            </div>
+            <h3>📝 Questions:</h3>
+            <div class="paper">
+                <h4>📜 OS Dec 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.4.b.</strong> What is an Operating System?
+                        Explain structure of Operating System.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.f.</strong> File Allocation Methods (short
+                        note).
+                    </div>
+                </div>
+            </div>
+            <div class="paper">
+                <h4>📜 OS Dec 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.2.a.</strong> What is an Operating System?
+                        Explain structure of Operating System.
+                    </div>
+                    <div class="question">
+                        <strong>Q.1.a.</strong> Explain process state model.
+                    </div>
+                </div>
+            </div>
+            <div class="paper">
+                <h4>📜 OS May 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.a.</strong> What are the various objectives
+                        and functions of Operating Systems?
+                    </div>
+                </div>
+            </div>
+        </div>
+---------------------------------------------------------------------------------------------------------------------
