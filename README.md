@@ -62,8 +62,6 @@ Each `subject` directory has the following sub-directories:
 - **PYQS**: Previous years' exam papers for practice.  
 - **Writeups**: Technical deep-dives and project analyses.  
 
-<br>
-
 ## Usage
 
 To use the data and scripts in this repository, follow these steps:
@@ -77,7 +75,7 @@ To use the data and scripts in this repository, follow these steps:
 
 2. **Explore the data:**
 
-    Navigate to the `SEM 3` to `SEM 8` directories and choose the specific subject directory to find the data sets and papers available.
+    Navigate to the `SEM 3` to `SEM 8` directories and choose the specific subject directory to find the data sets, essential documents, resources and papers available.
 
 ## Contact
 
