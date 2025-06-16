@@ -52,15 +52,15 @@
     - README.md
 
 
-Each `subject` directory has a sub-directories:
+Each `subject` directory has the following sub-directories:
 
-    - **Assignments**: Problem sets and project submissions.  
-    - **Documentation**: Reports, research papers, and API docs.  
-    - **Experiments**: Lab work and practical implementations.  
-    - **Miscellaneous**: Extra resources and unofficial materials.  
-    - **Notes**: Lecture summaries and self-prepared study guides.  
-    - **PYQS**: Previous years' exam papers for practice.  
-    - **Writeups**: Technical deep-dives and project analyses.  
+- **Assignments**: Problem sets and project submissions.  
+- **Documentation**: Reports, research papers, and API docs.  
+- **Experiments**: Lab work and practical implementations.  
+- **Miscellaneous**: Extra resources and unofficial materials.  
+- **Notes**: Lecture summaries and sel-prepared study guides.  
+- **PYQS**: Previous years' exam papers for practice.  
+- **Writeups**: Technical deep-dives and project analyses.  
 
 <br>
 
