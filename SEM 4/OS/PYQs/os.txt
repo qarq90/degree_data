@@ -1,0 +1,771 @@
+Read every question paper.
+Read every question.
+
+---------------------------------------------------------------------------------------------------------------------
+
+SYLLABUS:
+
+	Module number 1 (Fundamentals of Operating System):
+		Content:
+			Introduction to Operating Systems; 
+			Operating System Structure and Operations; 
+			Functions of Operating Systems; 
+			Operating System Services and Interface; 
+			System Calls and its Types; 
+			System Programs; 
+			Operating System Structure; 
+			System Boot.		
+					
+	Module number 2 (Process Management):
+		Content:
+			Basic Concepts of Process;
+			Operation on Process; 
+				Process State Model and Transition;
+				Process Control Block; 
+				Context Switching;
+			Introduction to Threads; 
+			Types of Threads, Thread Models; 
+			Basic Concepts of Scheduling; 
+				Types of Schedulers; 
+				Scheduling Criteria; 
+				Scheduling Algorithms.
+			
+	Module number 3 (Process Coordination):
+		Content:
+			Basic Concepts of Inter-process Communication and Synchronization; 
+			Race Condition; 
+			Critical Region and Problem;
+			Peterson’s Solution; 
+			Synchronization Hardware and Semaphores; 
+			Classic Problems of Synchronization; 
+			Message Passing; 
+			Introduction to Deadlocks; 
+				System Model, Deadlock Characterization; 
+				Deadlock Detection and Recovery; 
+				Deadlock Prevention; Deadlock Avoidance.
+			
+	Module number 4 (Memory Management):
+		Content:
+			Basic Concepts of Memory Management;
+			Swapping; Contiguous Memory Allocation;
+			Paging; Structure of Page Table;
+			Segmentation; Basic Concepts of Virtual
+			Memory; Demand Paging, Copy-on Write;
+			Page Replacement Algorithms; Thrashing.
+				
+	Module number 5 (Storage Management):
+		Content:
+			Basic Concepts of File System; 
+			File Access Methods; 
+			Directory Structure; 
+			File-System Implementation;
+			Allocation Methods; 
+			Free Space Management; 
+			Overview of Mass-Storage Structure; 
+			Disk Structure; 
+			Disk Scheduling; 
+			RAID Structure; 
+			Introduction to I/O Systems.
+					
+	Module number 6 (Special-purpose Operating Systems):
+		Content:
+			Open-source and Proprietary Operating System; 
+			Fundamentals of Distributed Operating System; 
+			Network Operating System; 
+			Embedded Operating Systems; 
+			Cloud and IoT Operating Systems; 
+			Real-Time Operating System;
+			Mobile Operating System;
+			Multimedia Operating System;
+			Comparison between Functions of various Special-purpose Operating Systems.
+						
+---------------------------------------------------------------------------------------------------------------------
+
+Create a .md file that is in the following structure:
+
+## **Module (module_number): (module_name)**
+**Topics Covered:**  
+- (module_topic_1)  
+- (module_topic_2)  
+.............
+- (module_topic_n)  
+
+### **Questions:**
+
+#### 📜 OS (paper_month) (paper_year).pdf
+- **Q.(question_number).(sub_question_number).** (question).  
+
+---------------------------------------------------------------------------------------------------------------------
+
+Also create a .html file in the following structure:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Computer Network & Network Design Exam Questions</title>
+        <style>
+            body {
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #191919;
+                color: #d1d5db;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                line-height: 1.6;
+            }
+
+            h1 {
+                color: #ffffff;
+                text-align: center;
+                margin-bottom: 30px;
+                border-bottom: 2px solid #ccc;
+                padding-bottom: 10px;
+            }
+
+            h2 {
+                color: #ccc;
+                background-color: #333;
+                padding: 10px;
+                border-left: 5px solid #ccc;
+                margin-top: 30px;
+            }
+
+            h3 {
+                color: #ccc;
+                margin-top: 25px;
+            }
+
+            .module {
+                background-color: #333;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+                padding: 20px;
+                margin-bottom: 30px;
+            }
+
+            .topics {
+                background-color: #232323;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 15px 0;
+            }
+
+            .questions {
+                margin-left: 20px;
+            }
+
+            .paper {
+                background-color: #232323;
+                border-left: 4px solid #ccc;
+                padding: 10px 15px;
+                margin: 15px 0;
+            }
+
+            .question {
+                margin: 10px 0;
+                padding-left: 10px;
+                border-left: 3px solid #ccc;
+            }
+
+            .note {
+                background-color: #3a3b45;
+                border-left: 4px solid #facc15;
+                padding: 15px;
+                margin-top: 20px;
+                font-style: italic;
+                color: #fef9c3;
+            }
+
+            ul {
+                padding-left: 20px;
+            }
+
+            li {
+                margin-bottom: 8px;
+            }
+
+            .emoji {
+                font-size: 1.2em;
+                margin-right: 5px;
+            }
+
+            a {
+                color: #63e6be;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>📚 Computer Network & Network Design Exam Questions</h1>
+        <p><em>Aligned with Syllabus Modules</em></p>
+
+        <div class="module">
+            <h2>📦 Module 1: Reference Models & Network Devices</h2>
+
+            <div class="topics">
+                <h3>🔍 Topics Covered:</h3>
+                <ul>
+                    <li>OSI Reference Model</li>
+                    <li>TCP/IP Reference Model</li>
+                    <li>Comparison of OSI & TCP/IP</li>
+                    <li>
+                        Network Devices (Repeater, Hub, Bridge, Switch, Gateway)
+                    </li>
+                </ul>
+            </div>
+
+            <h3>📝 Questions:</h3>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.b.</strong> List the internetworking devices
+                        and explain any one.
+                    </div>
+                    <div class="question">
+                        <strong>Q.2.a.</strong> Draw and explain the OSI model
+                        briefly.
+                    </div>
+                    <div class="question">
+                        <strong>Q.5.a.</strong> Compare TCP/IP and OSI.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.c.</strong> Explain Repeater, Hub, Bridge,
+                        Switch, and Gateway.
+                    </div>
+                    <div class="question">
+                        <strong>Q.2.a.</strong> Draw and Explain OSI reference
+                        model with functions of each layer.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.a.</strong> Explain Repeater, Hub, Bridge,
+                        Switch, and Gateway.
+                    </div>
+                    <div class="question">
+                        <strong>Q.2.a.</strong> Draw and Explain OSI reference
+                        model with neat diagram.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2022.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.a.</strong> Explain TCP/IP Reference Model.
+                    </div>
+                    <div class="question">
+                        <strong>Q.2.a.</strong> Explain ISO-OSI reference Model.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.2.b.</strong> Explain the OSI model of
+                        Computer Network with a neat diagram.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="module">
+            <h2>📦 Module 2: Physical Layer & Data Link Layer</h2>
+
+            <div class="topics">
+                <h3>🔍 Topics Covered:</h3>
+                <ul>
+                    <li>
+                        Guided/Unguided Transmission Media (Twisted Pair,
+                        Coaxial, Fiber Optics)
+                    </li>
+                    <li>Error Detection/Correction (CRC, Parity)</li>
+                    <li>
+                        Sliding Window Protocol (Go-Back-N, Selective Repeat)
+                    </li>
+                    <li>CSMA Protocols (CSMA/CD, CSMA/CA)</li>
+                    <li>Ethernet Protocols</li>
+                </ul>
+            </div>
+
+            <h3>📝 Questions:</h3>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.a.</strong> Compare Bus and Star topology.
+                    </div>
+                    <div class="question">
+                        <strong>Q.3.b.</strong> Draw and explain Fiber Optic
+                        Media and compare it with Twisted Pair.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.d.</strong> Image Compression Techniques
+                        <em>(Overlaps with Module 5)</em>.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.a.</strong> Compare Twisted pair cable,
+                        Coaxial cable, and Fiber optics cable.
+                    </div>
+                    <div class="question">
+                        <strong>Q.3.a.</strong> Explain CSMA protocols. Explain
+                        how collisions are handled in CSMA/CA.
+                    </div>
+                    <div class="question">
+                        <strong>Q.3.b.</strong> CRC calculation for a bit
+                        stream.
+                    </div>
+                    <div class="question">
+                        <strong>Q.4.b.</strong> Explain Go-Back-N protocol.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.3.a.</strong> Explain CSMA protocols. Explain
+                        collisions in CSMA/CD.
+                    </div>
+                    <div class="question">
+                        <strong>Q.3.b.</strong> CRC calculation for a bit
+                        stream.
+                    </div>
+                    <div class="question">
+                        <strong>Q.4.a.</strong> Explain Twisted pair, Coaxial
+                        Cable, Fiber Optic.
+                    </div>
+                    <div class="question">
+                        <strong>Q.4.b.</strong> Explain sliding window protocol.
+                        Compare Go-Back-N and Selective Repeat.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2022.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.b.</strong> Explain Sliding Window Protocol.
+                    </div>
+                    <div class="question">
+                        <strong>Q.4.b.</strong> Explain Fast Ethernet and
+                        Gigabit Ethernet.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.b.</strong> Compare Circuit-Switched
+                        Networks and Packet Switching Network.
+                    </div>
+                    <div class="question">
+                        <strong>Q.4.a.</strong> Draw and explain guided and
+                        unguided transmission media.
+                    </div>
+                    <div class="question">
+                        <strong>Q.5.a.</strong> Explain in detail Go-Back-N
+                        protocol.
+                    </div>
+                    <div class="question">
+                        <strong>Q.5.b.</strong> Explain in detail CSMA
+                        protocols.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="module">
+            <h2>📦 Module 3: Network Layer</h2>
+
+            <div class="topics">
+                <h3>🔍 Topics Covered:</h3>
+                <ul>
+                    <li>IPv4 Addressing (Classful/Classless)</li>
+                    <li>Subnetting/Supernetting</li>
+                    <li>NAT (Network Address Translation)</li>
+                    <li>Routing Algorithms (Distance Vector, OSPF, BGP)</li>
+                    <li>IPv6</li>
+                </ul>
+            </div>
+
+            <h3>📝 Questions:</h3>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.4.b.</strong> Draw the IPv4 Header and explain
+                        the header format.
+                    </div>
+                    <div class="question">
+                        <strong>Q.5.b.</strong> Explain distance vector routing
+                        with an example.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.e.</strong> Class B IP addressing details
+                        and subnet mask.
+                    </div>
+                    <div class="question">
+                        <strong>Q.2.b.</strong> Static vs. dynamic routing.
+                        Explain distance vector routing.
+                    </div>
+                    <div class="question">
+                        <strong>Q.5.b.</strong> Explain Classful and Classless
+                        IP addresses.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.c.</strong> Explain Network Address
+                        Translation.
+                    </div>
+                    <div class="question">
+                        <strong>Q.2.b.</strong> Explain IPv4 header format with
+                        diagram.
+                    </div>
+                    <div class="question">
+                        <strong>Q.5.a.</strong> Explain Classful and Classless
+                        IP addresses.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.e.</strong> OSPF <em>(short note)</em>.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2022.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.c.</strong> Explain different classes of
+                        IPv4 Addresses.
+                    </div>
+                    <div class="question">
+                        <strong>Q.4.a.</strong> Explain IPv6 Header with a
+                        diagram.
+                    </div>
+                    <div class="question">
+                        <strong>Q.2.b.</strong> Explain Network Address
+                        Translation.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.2.a.</strong> Explain in detail Link state
+                        routing.
+                    </div>
+                    <div class="question">
+                        <strong>Q.3.a.</strong> Explain in detail Classful and
+                        Classless IP addresses.
+                    </div>
+                    <div class="question">
+                        <strong>Q.4.b.</strong> Subnetting problem: An
+                        organization is granted the block 18.0.0.0/8. The
+                        administrator wants to create 511 fixed-length subnets.
+                        a. Find the subnet mask. b. Find the number of addresses
+                        in each subnet. c. Find the first and the last address
+                        in the first subnet.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.a.</strong> OSPF <em>(short note)</em>.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="module">
+            <h2>📦 Module 4: Transport Layer</h2>
+
+            <div class="topics">
+                <h3>🔍 Topics Covered:</h3>
+                <ul>
+                    <li>UDP & TCP Protocols</li>
+                    <li>TCP Congestion Control</li>
+                    <li>Flow/Error Control</li>
+                    <li>RPC (Remote Procedure Call)</li>
+                </ul>
+            </div>
+
+            <h3>📝 Questions:</h3>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.d.</strong> Draw the UDP Header with its
+                        fields.
+                    </div>
+                    <div class="question">
+                        <strong>Q.5.b.</strong> Explain TCP congestion control
+                        mechanism <em>(Overlaps with Module 5)</em>.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.5.a.</strong> Explain TCP congestion control
+                        mechanism.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.a.</strong> RPC <em>(short note)</em>.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.5.b.</strong> Explain TCP congestion control
+                        mechanism.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.a.</strong> RPC <em>(short note)</em>.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2022.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.3.a.</strong> Explain TCP header with a
+                        diagram.
+                    </div>
+                    <div class="question">
+                        <strong>Q.3.b.</strong> Different UDP Applications.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.a.</strong> Explain in detail TCP Timers.
+                    </div>
+                    <div class="question">
+                        <strong>Q.3.b.</strong> Explain in detail TCP header
+                        with diagram.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="module">
+            <h2>📦 Module 5: Presentation Layer & Compression</h2>
+
+            <div class="topics">
+                <h3>🔍 Topics Covered:</h3>
+                <ul>
+                    <li>Lossy vs. Lossless Compression</li>
+                    <li>RLE (Run-Length Encoding)</li>
+                    <li>Image Compression (GIF, JPEG)</li>
+                </ul>
+            </div>
+
+            <h3>📝 Questions:</h3>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.c.</strong> Explain RLE with an example.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.d.</strong> Image Compression Techniques.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.d.</strong> Compare lossy with lossless data
+                        compression.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.d.</strong> VLAN
+                        <em>(Overlaps with Module 6)</em>.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.e.</strong> Explain Image compression GIF
+                        and JPEG.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2022.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.5.a.</strong> Compare Lossy Compression and
+                        Lossless Compression.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.6.e.</strong> Image Compression
+                        <em>(short note)</em>.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="module">
+            <h2>📦 Module 6: Advanced Networking</h2>
+
+            <div class="topics">
+                <h3>🔍 Topics Covered:</h3>
+                <ul>
+                    <li>VLAN, VPN</li>
+                    <li>Network Design Case Study</li>
+                    <li>Application Layer Protocols (SMTP, FTP, HTTP, DNS)</li>
+                </ul>
+            </div>
+
+            <h3>📝 Questions:</h3>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.6.a.</strong> Leaky bucket.
+                    </div>
+                    <div class="question"><strong>Q.6.b.</strong> SMTP.</div>
+                    <div class="question"><strong>Q.6.c.</strong> VLAN.</div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2023.pdf</h4>
+                <div class="questions">
+                    <div class="question"><strong>Q.6.b.</strong> FTP.</div>
+                    <div class="question"><strong>Q.6.c.</strong> VPN.</div>
+                    <div class="question"><strong>Q.6.e.</strong> HTTP.</div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND May 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question"><strong>Q.6.b.</strong> DNS.</div>
+                    <div class="question"><strong>Q.6.c.</strong> VLAN.</div>
+                    <div class="question"><strong>Q.6.d.</strong> SNMP.</div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2022.pdf</h4>
+                <div class="questions">
+                    <div class="question"><strong>Q.6.b.</strong> VLAN.</div>
+                    <div class="question">
+                        <strong>Q.6.c.</strong> Routing Algorithms.
+                    </div>
+                    <div class="question">
+                        <strong>Q.5.b.</strong> Explain HTTP Protocol.
+                    </div>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h4>📜 CNND Dec 2024.pdf</h4>
+                <div class="questions">
+                    <div class="question">
+                        <strong>Q.1.d.</strong> Explain Domain Name System
+                        (DNS).
+                    </div>
+                    <div class="question">
+                        <strong>Q.1.c.</strong> What is the difference between
+                        MAC address and IP address?
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.b.</strong> SNMP <em>(short note)</em>.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.c.</strong> VLAN <em>(short note)</em>.
+                    </div>
+                    <div class="question">
+                        <strong>Q.6.d.</strong> RPC <em>(short note)</em>.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="note">
+            <h3>🎯 Key Notes:</h3>
+            <ul>
+                <li>Overlapping topics are marked for clarity.</li>
+                <li>
+                    Focus on diagrams and examples for protocols and headers.
+                </li>
+                <li>
+                    December 2024 questions have been integrated into all
+                    relevant modules.
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
+
