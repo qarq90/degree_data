@@ -55,12 +55,12 @@
 Each `subject` directory has the following sub-directories:
 
 - **Assignments**: Problem sets and project submissions.  
-- **Documentation**: Reports, research papers, and API docs.  
+- **Documentation**: Documentation of lab experiments and manual.  
 - **Experiments**: Lab work and practical implementations.  
 - **Miscellaneous**: Extra resources and unofficial materials.  
 - **Notes**: Lecture summaries and sel-prepared study guides.  
 - **PYQS**: Previous years' exam papers for practice.  
-- **Writeups**: Technical deep-dives and project analyses.  
+- **Writeups**: Technical deep-dives and experiments writeups.
 
 ## Usage
 
