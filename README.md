@@ -83,6 +83,3 @@ If you have any questions, suggestions, or feedback, please contact the reposito
 
 - **Email:** scythethroughtheheart05@gmail.com
 - **GitHub:** (https://github.com/qarq90/qarq90)
-
----
-
