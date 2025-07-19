@@ -7,10 +7,24 @@ def ceaser_cipher_encrypt(plain_text: str, key):
     plain_text = plain_text.strip()
     
     encrypted_message = ""
+    characters_in_plain_text = []
     
     for i in plain_text:
         mapped_index = alphabets.index(i)
         encrypted_message = encrypted_message + alphabets[(mapped_index + key) % 27]
+        if i not in characters_in_plain_text:
+            characters_in_plain_text.append(i)
+            
+    print("Length of the plain text:", len(plain_text))
+    
+    for i in characters_in_plain_text:
+        if i == " ":
+            print(f"Frequency of ' ' in plain text is {(len(plain_text) / plain_text.count(i))}%")
+        else:
+            print(f"Frequency of {i} in plain text is {(len(plain_text) / plain_text.count(i))}%")
+        
+    
+    print(characters_in_plain_text)
     
     return encrypted_message
     
