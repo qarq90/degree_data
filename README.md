@@ -26,7 +26,14 @@
         SEM 4 in a nutshell.txt
 
     - SEM 5 :
-        
+        ADOP (Advance DevOps)
+        ADSA (Advance Data Structures and Algorithms)
+        CNS (Computer Network Security)
+        DOP (DevOps)
+        EEB (Entrepreneurship and E-business)
+        INP (Internet Programming)
+        PCE (Professional Communication & Ethics II)
+        SEN (Software Engineering)
         Syllabus.pdf
         Progress.xlsx
         SEM 5 in a nutshell.txt
