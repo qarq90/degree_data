@@ -1,0 +1,28 @@
+Experiment 1: Clone a repo and deploy it on vercel
+To Perform various GIT operations on local and Remote repositories using GIT Cheat-Sheet
+Given we have performed in previous lab, setting up a Git account along with Cloning other repo
+on our local desktop . After cloning we pushed the clone repo on our remote repository. The
+cloned repo is deployed on remote server(Netlify or vercel)
+In this experiment our Goal is to practice local & remote Git operations including setup, version
+control, branching, merging, and remote sync.
+.
+Git Cheat‑Sheet for Experiment 2
+1.Initial Setup:
+# Set your identity for commits
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+# Optional: colorize output
+git config --global color.ui auto
+2.Creating Repositories:
+git init
+# ➤ Initialize current directory as a Git repo
+git clone <url>
+# ➤ Clone a remote repository locally
+3.Tracking Changes:
+git status
+# ➤ View tracked/untracked changes
+git add <file>
+git add .
+# ➤ Stage files for commit
+git commit -m "Message"
+# ➤ Commit staged changes locally
