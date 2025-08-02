@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Changer</title>
+    </head>
+    <body>
+        <h1 id="text">Click button to change color!</h1>
+        <button onclick="changeColor()">Change Color</button>
+
+        <script>
+            const colors = ["red", "green", "blue", "orange", "purple"];
+            let index = 0;
+
+            function changeColor() {
+                const text = document.getElementById("text");
+                text.style.color = colors[index];
+                index = (index + 1) % colors.length;
+            }
+        </script>
+    </body>
+</html>

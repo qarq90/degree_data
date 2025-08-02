@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change to Red</title>
+    </head>
+    <body>
+        <h1 id="text">Change my color!</h1>
+        <button onclick="changeColor()">Click to change color</button>
+        <script>
+            const changeColor = () => {
+                const heading = document.getElementById("text");
+                heading.style.color = "red";
+            };
+        </script>
+    </body>
+</html>
