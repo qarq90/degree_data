@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="w-screen h-screen flex flex-row justify-center items-center">
+        <form class="flex flex-col gap-2 w-[512px]">
+            <h1 class="text-2xl text-center">Login</h1>
+            <input
+                id="email"
+                type="text"
+                class="border border-black p-1 rounded-md"
+                placeholder="Enter email"
+            />
+            <input
+                id="password"
+                type="text"
+                class="border border-black p-1 rounded-md"
+                placeholder="Enter password"
+            />
+            <div
+                id="button"
+                onclick="submit()"
+                class="border text-center cursor-pointer border-black bg-black text-white rounded-md p-1"
+            >
+                Submit
+            </div>
+        </form>
+
+        <script>
+            let button = document.getElementById("button").value;
+            let email = document.getElementById("email").value;
+            let password = document.getElementById("password").value;
+
+            const submit = () => {
+                if (email.length === 0 || password.length === 0) {
+                    alert("Please enter some values");
+                    return;
+                }
+
+                if (
+                    email === "scythethroughtheheart05@gmail.com" &&
+                    password === "iLoveGymMommies05"
+                ) {
+                    alert("Login Successful");
+                    return;
+                } else {
+                    alert("Invalid Credentials");
+                }
+            };
+        </script>
+    </body>
+</html>

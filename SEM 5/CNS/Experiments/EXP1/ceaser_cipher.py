@@ -1,4 +1,4 @@
-alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 def ceaser_cipher_encrypt(plain_text: str, key):
     if len(plain_text) == 0: return
@@ -43,7 +43,7 @@ def ceaser_cipher_decrypt(cipher_text: str, key):
     return decrypted_message
 
     
-original_message = "Death is an old friend"
+original_message = "Deathisanoldfriend"
 print("Original Message: ", original_message)
 encrypted_message = ceaser_cipher_encrypt(original_message, 3)
 print("Encrypted Message: ", encrypted_message)

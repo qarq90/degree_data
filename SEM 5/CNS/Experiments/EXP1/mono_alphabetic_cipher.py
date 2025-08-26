@@ -1,5 +1,5 @@
-alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
-substituted_alphabets = "PJBTDGQRVHXCKLZOMFYWNAIUSE/"
+alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+substituted_alphabets = "PJBTDGQRVHXCKLZOMFYWNAIUSE"
 
 def mono_alphabetic_encrypt(plain_text: str):
     if len(plain_text) == 0: return
@@ -44,7 +44,7 @@ def mono_alphabetic_decrypt(cipher_text: str):
     return decrypted_text
 
 
-original_message = "History is written by the victor"
+original_message = "Historyiswrittenbythevictor"
 print("Original Message: ", original_message)
 encrypted_message = mono_alphabetic_encrypt(original_message)
 print("Encrypted Message: ", encrypted_message)

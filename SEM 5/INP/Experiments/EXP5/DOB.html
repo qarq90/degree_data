@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Age Calculator</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="w-screen h-screen flex flex-row justify-center items-center">
+        <form
+            class="flex flex-col gap-4 w-full max-w-md bg-white p-8 rounded-lg shadow-md"
+        >
+            <h1 class="text-3xl font-bold text-center text-gray-800 mb-4">
+                Age Calculator
+            </h1>
+
+            <div class="flex flex-col gap-1">
+                <label for="dob" class="text-gray-700">Date of Birth</label>
+                <input
+                    id="dob"
+                    type="date"
+                    class="border border-gray-300 p-2 rounded-md focus:outline-none"
+                    max=""
+                />
+            </div>
+
+            <button
+                type="button"
+                onclick="calculateAge()"
+                class="mt-4 text-black font-medium py-2 px-4 rounded-md transition duration-200"
+            >
+                Calculate Age
+            </button>
+
+            <div id="result" class="mt-6 p-4 rounded-md hidden">
+                <h2 class="text-xl font-semibold">Your Age</h2>
+                <div class="mt-2 grid grid-cols-3 gap-4 text-center">
+                    <div>
+                        <p class="text-4xl font-bold" id="years">0</p>
+                        <p class="text-black">Years</p>
+                    </div>
+                    <div>
+                        <p class="text-4xl font-bold" id="months">0</p>
+                        <p class="text-black">Months</p>
+                    </div>
+                    <div>
+                        <p class="text-4xl font-bold" id="days">0</p>
+                        <p class="text-black">Days</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <script>
+            document.getElementById("dob").max = new Date()
+                .toISOString()
+                .split("T")[0];
+
+            function calculateAge() {
+                const dobInput = document.getElementById("dob");
+                const resultDiv = document.getElementById("result");
+
+                if (!dobInput.value) {
+                    alert("Please select your date of birth");
+                    return;
+                }
+
+                const dob = new Date(dobInput.value);
+                const today = new Date();
+
+                let years = today.getFullYear() - dob.getFullYear();
+                let months = today.getMonth() - dob.getMonth();
+                let days = today.getDate() - dob.getDate();
+
+                if (days < 0) {
+                    months--;
+                    const lastMonth = new Date(
+                        today.getFullYear(),
+                        today.getMonth(),
+                        0
+                    );
+                    days += lastMonth.getDate();
+                }
+
+                if (months < 0) {
+                    years--;
+                    months += 12;
+                }
+
+                document.getElementById("years").textContent = years;
+                document.getElementById("months").textContent = months;
+                document.getElementById("days").textContent = days;
+
+                resultDiv.classList.remove("hidden");
+            }
+        </script>
+    </body>
+</html>

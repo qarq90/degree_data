@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grade Calculator</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="min-h-screen flex items-center justify-center p-4">
+        <div class="rounded-lg shadow-md p-6 w-full max-w-md">
+            <h1 class="text-2xl font-bold text-center mb-6">
+                Grade Calculator
+            </h1>
+
+            <div class="space-y-4">
+                <div class="flex flex-col gap-2">
+                    <label for="score" class="block text-sm font-medium mb-1"
+                        >Enter your score (0-100)</label
+                    >
+                    <input
+                        type="number"
+                        id="scoreA"
+                        min="0"
+                        max="100"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none"
+                        placeholder="e.g. 85"
+                    />
+                    <input
+                        type="number"
+                        id="scoreB"
+                        min="0"
+                        max="100"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none"
+                        placeholder="e.g. 85"
+                    />
+                    <input
+                        type="number"
+                        id="scoreC"
+                        min="0"
+                        max="100"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none"
+                        placeholder="e.g. 85"
+                    />
+                </div>
+
+                <button
+                    onclick="calculateGrade()"
+                    class="w-full font-medium py-2 px-4 rounded-md transition duration-200"
+                >
+                    Calculate Grade
+                </button>
+
+                <div id="result" class="hidden mt-6 p-4 rounded-md text-center">
+                    <h2 class="text-lg font-semibold mb-2">Your Grade:</h2>
+                    <div id="grade" class="text-4xl font-bold"></div>
+                    <p id="message" class="mt-2 text-gray-600"></p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function calculateGrade() {
+                const scoreInputA = document.getElementById("scoreA");
+                const scoreInputB = document.getElementById("scoreB");
+                const scoreInputC = document.getElementById("scoreC");
+                const resultDiv = document.getElementById("result");
+                const gradeDisplay = document.getElementById("grade");
+                const messageDisplay = document.getElementById("message");
+
+                if (
+                    !scoreInputA.value ||
+                    scoreInputA.value < 0 ||
+                    scoreInputA.value > 100 ||
+                    !scoreInputB.value ||
+                    scoreInputB.value < 0 ||
+                    scoreInputB.value > 100 ||
+                    !scoreInputC.value ||
+                    scoreInputC.value < 0 ||
+                    scoreInputC.value > 100
+                ) {
+                    alert("Please enter a valid score between 0 and 100");
+                    return;
+                }
+
+                const score =
+                    (parseInt(scoreInputA.value) +
+                        parseInt(scoreInputB.value) +
+                        parseInt(scoreInputC.value)) /
+                    3;
+                console.log(score);
+                let grade, message;
+
+                if (score >= 90) {
+                    grade = "A";
+                    message = "Excellent work!";
+                } else if (score >= 80) {
+                    grade = "B";
+                    message = "Good job!";
+                } else if (score >= 70) {
+                    grade = "C";
+                    message = "You passed!";
+                } else if (score >= 60) {
+                    grade = "D";
+                    message = "You barely passed";
+                } else {
+                    grade = "F";
+                    message = "You failed. Try harder next time.";
+                }
+
+                gradeDisplay.textContent = grade;
+                messageDisplay.textContent = message;
+
+                resultDiv.classList.remove(
+                    "bg-green-100",
+                    "text-green-800",
+                    "bg-blue-100",
+                    "text-blue-800",
+                    "bg-yellow-100",
+                    "text-yellow-800",
+                    "bg-orange-100",
+                    "text-orange-800",
+                    "bg-red-100",
+                    "text-red-800"
+                );
+
+                if (grade === "A") {
+                    resultDiv.classList.add("bg-green-100", "text-green-800");
+                } else if (grade === "B") {
+                    resultDiv.classList.add("bg-blue-100", "text-blue-800");
+                } else if (grade === "C") {
+                    resultDiv.classList.add("bg-yellow-100", "text-yellow-800");
+                } else if (grade === "D") {
+                    resultDiv.classList.add("bg-orange-100", "text-orange-800");
+                } else {
+                    resultDiv.classList.add("bg-red-100", "text-red-800");
+                }
+
+                resultDiv.classList.remove("hidden");
+            }
+        </script>
+    </body>
+</html>

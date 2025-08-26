@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Waifu.pics Demo</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                text-align: center;
+            }
+            .waifu-container {
+                margin: 30px 0;
+            }
+            #waifu-image {
+                max-width: 100%;
+                max-height: 500px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            button {
+                background-color: #ff6b81;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 5px;
+                cursor: pointer;
+                margin: 5px;
+                transition: background-color 0.3s;
+            }
+            button:hover {
+                background-color: #ff4757;
+            }
+            .category-buttons {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Waifu.pics Demo</h1>
+        <p>Click a button to get a random waifu image!</p>
+
+        <div class="category-buttons">
+            <h3>SFW Categories:</h3>
+            <button onclick="getWaifu('waifu')">Waifu</button>
+            <button onclick="getWaifu('neko')">Neko</button>
+            <button onclick="getWaifu('shinobu')">Shinobu</button>
+            <button onclick="getWaifu('megumin')">Megumin</button>
+            <button onclick="getWaifu('bully')">Bully</button>
+            <button onclick="getWaifu('cuddle')">Cuddle</button>
+        </div>
+
+        <div class="waifu-container">
+            <img id="waifu-image" src="" alt="Random waifu will appear here" />
+        </div>
+
+        <script>
+            function getWaifu(category) {
+                fetch(`https://api.waifu.pics/sfw/${category}`)
+                    .then((response) => response.json())
+                    .then((data) => {
+                        document.getElementById("waifu-image").src = data.url;
+                    })
+                    .catch((error) => {
+                        console.error("Error:", error);
+                        alert("Failed to fetch waifu image. Please try again.");
+                    });
+            }
+
+            window.onload = function () {
+                getWaifu("waifu");
+            };
+        </script>
+    </body>
+</html>
