@@ -3,57 +3,85 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Login</title>
         <link
             href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
             rel="stylesheet"
         />
     </head>
-    <body class="w-screen h-screen flex flex-row justify-center items-center">
-        <form class="flex flex-col gap-2 w-[512px]">
-            <h1 class="text-2xl text-center">Login</h1>
-            <input
-                id="email"
-                type="text"
-                class="border border-black p-1 rounded-md"
-                placeholder="Enter email"
-            />
-            <input
-                id="password"
-                type="text"
-                class="border border-black p-1 rounded-md"
-                placeholder="Enter password"
-            />
-            <div
-                id="button"
-                onclick="submit()"
-                class="border text-center cursor-pointer border-black bg-black text-white rounded-md p-1"
-            >
-                Submit
+    <body
+        class="w-screen h-screen flex flex-row justify-center items-center bg-gray-100"
+    >
+        <form
+            class="flex flex-col gap-4 w-full max-w-md p-6 bg-white rounded-lg shadow-md"
+        >
+            <h1 class="text-2xl font-bold text-center text-gray-800">Login</h1>
+
+            <div class="flex flex-col gap-1">
+                <label for="email" class="text-sm font-medium text-gray-700"
+                    >Email</label
+                >
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    class="border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Enter your email"
+                />
             </div>
+
+            <div class="flex flex-col gap-1">
+                <label for="password" class="text-sm font-medium text-gray-700"
+                    >Password</label
+                >
+                <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    required
+                    class="border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Enter your password"
+                />
+            </div>
+
+            <button
+                type="submit"
+                class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
+                Sign In
+            </button>
+
+            <!-- <p class="text-center text-sm text-gray-600 mt-4">
+                Demo credentials:<br />
+                Email: scythethroughtheheart05@gmail.com<br />
+                Password: iLoveGymMommies05
+            </p> -->
         </form>
 
         <script>
-            let button = document.getElementById("button").value;
-            let email = document.getElementById("email").value;
-            let password = document.getElementById("password").value;
+            document
+                .querySelector("form")
+                .addEventListener("submit", function (e) {
+                    e.preventDefault(); 
 
-            const submit = () => {
-                if (email.length === 0 || password.length === 0) {
-                    alert("Please enter some values");
-                    return;
-                }
+                    const email = document.getElementById("email").value;
+                    const password = document.getElementById("password").value;
 
-                if (
-                    email === "scythethroughtheheart05@gmail.com" &&
-                    password === "iLoveGymMommies05"
-                ) {
-                    alert("Login Successful");
-                    return;
-                } else {
-                    alert("Invalid Credentials");
-                }
-            };
+                    if (email.length === 0 || password.length === 0) {
+                        alert("Please fill in all fields");
+                        return;
+                    }
+
+                    if (
+                        email === "scythethroughtheheart05@gmail.com" &&
+                        password === "iLoveGymMommies05"
+                    ) {
+                        alert("Login Successful");
+                    } else {
+                        alert("Invalid Credentials");
+                    }
+                });
         </script>
     </body>
 </html>
