@@ -4,6 +4,8 @@
 ## Directory Structure - degree_data:
 
     - SEM 3 :
+        $Micro Projects
+        $Mini Project
         DBMS (Database Management Systems)
         DSA (Data Structures and Algorithms)
         EM - III (Engineering Maths - III)
@@ -15,6 +17,8 @@
         SEM 3 in a nutshell.txt
         
     - SEM 4 :
+        $Micro Projects
+        $Mini Project
         AT (Automata Theory)
         CNND (Computer Network & Network Design)
         COA (Computer Organization & Architecture)
@@ -23,9 +27,12 @@
         PY (Programming with Python)
         Syllabus.pdf
         Progress.xlsx
+        Bunny Girl Senpai.mkv
         SEM 4 in a nutshell.txt
 
     - SEM 5 :
+        $Micro Projects
+        $Mini Project
         ADOP (Advance DevOps)
         ADSA (Advance Data Structures and Algorithms)
         CNS (Computer Network Security)
@@ -34,24 +41,28 @@
         INP (Internet Programming)
         PCE (Professional Communication & Ethics II)
         SEN (Software Engineering)
+        Webathon
         Syllabus.pdf
         Progress.xlsx
         SEM 5 in a nutshell.txt
 
     - SEM 6 :
-        
+        $Micro Projects
+        $Mini Project
         Syllabus.pdf
         Progress.xlsx
         SEM 6 in a nutshell.txt
 
     - SEM 7 :
-        
+        $Micro Projects
+        $Mini Project
         Syllabus.pdf
         Progress.xlsx
         SEM 7 in a nutshell.txt
 
     - SEM 8 :
-        
+        $Micro Projects
+        $Mini Project
         Syllabus.pdf
         Progress.xlsx
         SEM 8 in a nutshell.txt
@@ -65,7 +76,7 @@ Each `subject` directory has the following sub-directories:
 - **Documentation**: Documentation of lab experiments and manual.  
 - **Experiments**: Lab work and practical implementations.  
 - **Miscellaneous**: Extra resources and unofficial materials.  
-- **Notes**: Lecture summaries and sel-prepared study guides.  
+- **Notes**: Lecture summaries and self-prepared study guides.  
 - **PYQS**: Previous years' exam papers for practice.  
 - **Writeups**: Technical deep-dives and experiments writeups.
 
