@@ -1,0 +1,16 @@
+{
+    "name": "fizzbuzz-docker",
+    "version": "1.0.0",
+    "description": "FizzBuzz application in Docker",
+    "main": "fizzbuzz.js",
+    "scripts": {
+        "start": "node fizzbuzz.js"
+    },
+    "keywords": [
+        "fizzbuzz",
+        "docker",
+        "javascript"
+    ],
+    "author": "qarq90",
+    "license": "MIT"
+}
