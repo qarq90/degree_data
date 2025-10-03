@@ -1,0 +1,48 @@
+---
+- name: Continuous Deployment on Localhost
+  hosts: local
+  become: yes
+  tasks:
+    - name: Install Apache Web Server
+      apt:
+        name: apache2
+        state: present
+        update_cache: yes
+
+    - name: Configure Git safe directory
+      command: git config --global --add safe.directory /var/www/html/app
+      become: yes
+
+    - name: Remove existing app directory to avoid conflicts
+      file:
+        path: /var/www/html/app
+        state: absent
+
+    - name: Pull code from GitHub
+      git:
+        repo: 'https://github.com/qarq90/dev-ops-ass-2.git'
+        dest: /var/www/html/app
+        version: main
+        force: yes
+
+    - name: Copy ALL website files to root web folder
+      copy:
+        src: /var/www/html/app/
+        dest: /var/www/html/
+        remote_src: yes
+        owner: www-data
+        group: www-data
+        mode: '0755'
+
+    - name: Set proper permissions on web directory
+      file:
+        path: /var/www/html
+        owner: www-data
+        group: www-data
+        mode: '0755'
+        recurse: yes
+
+    - name: Restart Apache
+      service:
+        name: apache2
+        state: restarted
