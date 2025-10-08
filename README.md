@@ -27,7 +27,6 @@
         PY (Programming with Python)
         Syllabus.pdf
         Progress.xlsx
-        Bunny Girl Senpai.mkv
         SEM 4 in a nutshell.txt
 
     - SEM 5 :
@@ -41,7 +40,6 @@
         INP (Internet Programming)
         PCE (Professional Communication & Ethics II)
         SEN (Software Engineering)
-        Webathon
         Syllabus.pdf
         Progress.xlsx
         SEM 5 in a nutshell.txt
