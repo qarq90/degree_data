@@ -45,6 +45,12 @@
         SEM 5 in a nutshell.txt
 
     - SEM 6 :
+        AIDS-1 (Artifical Intelligence and Data Science 1)
+        DMBI (Data Mining & Business Intelligence)
+        EHF (Ethical Hacking & Forensics)
+        MDPW (MAD & PWA)
+        WEBX (Web X.0)
+        WT (Wireless Technologies)
         $Micro Projects
         $Mini Project
         Syllabus.pdf
